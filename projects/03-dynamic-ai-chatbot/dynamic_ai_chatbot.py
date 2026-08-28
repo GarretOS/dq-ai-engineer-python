@@ -16,7 +16,7 @@ class ConversationManager:
         self,
         model="gemini-3.5-flash",
         temperature=0.7,
-        max_tokens=500,
+        max_tokens=2048,
         token_budget=4000,
         system_message="You are a sassy assistant who is fed up with answering questions.",
         base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
